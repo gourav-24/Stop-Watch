@@ -1,0 +1,115 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   /* background-image:url(./sprinting_grl.jpg);*/
+    background-size:115% 110%;
+    font-family: cursive;
+    
+    background-color:black;
+
+}
+h1{
+    color: White;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.flex-Container{
+    height:600px;
+    width:600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.stop_watch{
+    height: 300px;
+    width: 300px;
+    border-radius: 90%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Dial.png);
+    background-size:300px 300px;
+}
+.line{
+    height: 0px;
+    width: 100px;
+    border: 4px solid #E38906;
+    margin-bottom: 3px;
+}
+.buttons{
+    height: 60px;
+    width: 300px;
+    margin-top:20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.buttons div{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+
+#refresh-button{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    transform: rotate(90deg);
+}
+
+.display{
+    height: 40px;
+    min-width:140px;
+    /*border: 5px solid rgb(170, 163, 163);*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color:black;
+    border-radius: 8px;
+    padding:5px;
+}
+
+.play-pause-button{
+    color: white;
+}
+.play-pause-button i{
+    font-size:48px;
+    color:white;
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+#lap-button{
+    cursor: pointer;
+    font-size: 40px;
+    color: white;
+    transform: rotate(15deg);   
+}
+
+#lap-area{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#lap-area div{
+    border:  1px solid white;
+    margin: 5px;
+}
+#lap-area div span{
+    padding: 10px;
+    margin: 5px 20px 5px 20px;
+}
